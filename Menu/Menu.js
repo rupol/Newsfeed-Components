@@ -46,8 +46,12 @@ function menuCreator(array) {
   // create list items
   array.forEach(arrayItems => {
     let menuListItem = document.createElement("li");
-    menuListItem.textContent = arrayItems;
+    let menuListItemLink = document.createElement("a");
+    menuListItemLink.textContent = arrayItems;
+    menuListItemLink.href = "#";
+    menuListItemLink.classList.add("navlink");
     menuList.appendChild(menuListItem);
+    menuListItem.appendChild(menuListItemLink);
   });
 
   // add click event handler
