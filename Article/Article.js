@@ -138,10 +138,12 @@ function articleCreator(
   const heading = document.createElement("h2");
   heading.textContent = headingText;
 
+  // create date
   const date = document.createElement("p");
   date.classList.add("date");
   date.textContent = articleDate;
 
+  // create paragraphs
   const firstParagraph = document.createElement("p");
   firstParagraph.textContent = paragraphOne;
 
@@ -151,6 +153,7 @@ function articleCreator(
   const thirdParagraph = document.createElement("p");
   thirdParagraph.textContent = paragraphThree;
 
+  // create expand button
   const expandSpan = document.createElement("span");
   expandSpan.classList.add("expandButton");
   expandSpan.textContent = expandText;
@@ -158,6 +161,7 @@ function articleCreator(
     div.classList.toggle("article-open");
   });
 
+  // append all elements within article div
   div.appendChild(heading);
   div.appendChild(date);
   div.appendChild(firstParagraph);
@@ -168,8 +172,10 @@ function articleCreator(
   return div;
 }
 
+// create articles pointer
 const articles = document.querySelector(".articles");
 
+// tie data to articleCreator function using map
 const lambdaArticles = data.map(article => {
   return articleCreator(
     article.title,
@@ -181,6 +187,7 @@ const lambdaArticles = data.map(article => {
   );
 });
 
+// append all articles within articles div
 lambdaArticles.forEach(article => {
   articles.appendChild(article);
 });
