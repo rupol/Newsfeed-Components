@@ -3,7 +3,7 @@
 const data = [
   {
     title: 'Lambda School Students: "We\'re the best!"',
-    date: 'Nov 5th, 2018',
+    date: "Nov 5th, 2018",
     firstParagraph: `Lucas ipsum dolor sit amet ben twi'lek padmé darth darth darth moff hutt organa twi'lek. Ben amidala secura skywalker lando
         moff wicket tatooine luke.Solo wampa wampa calrissian yoda moff.Darth grievous darth gonk darth hutt.Darth baba skywalker
         watto fett jango maul han.Mon ewok sidious sidious lando kenobi grievous gamorrean solo.Yoda wedge utapau darth calamari.
@@ -23,8 +23,8 @@ const data = [
         moff calamari mon obi-wan. Solo grievous lando coruscant. Jinn darth palpatine obi-wan mon.`
   },
   {
-    title: 'Javascript and You, ES6',
-    date: 'May 7th, 2019',
+    title: "Javascript and You, ES6",
+    date: "May 7th, 2019",
     firstParagraph: `Alohamora wand elf parchment, Wingardium Leviosa hippogriff, house dementors betrayal. Holly, Snape centaur portkey ghost
         Hermione spell bezoar Scabbers. Peruvian-Night-Powder werewolf, Dobby pear-tickle half-moon-glasses, Knight-Bus. Padfoot
         snargaluff seeker: Hagrid broomstick mischief managed. Snitch Fluffy rock-cake, 9 ¾ dress robes I must not tell lies. Mudbloods
@@ -43,8 +43,8 @@ const data = [
         sing above the ground, Ginny Weasley bright red. Fanged frisbees, phoenix tears good clean match.`
   },
   {
-    title: 'React vs Angular vs Vue',
-    date: 'June 7th, 2019',
+    title: "React vs Angular vs Vue",
+    date: "June 7th, 2019",
     firstParagraph: `Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet, consectetur adipiscing
         elit. Venusaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmander Lorem ipsum dolor sit amet, consectetur
         adipiscing elit. Charmeleon Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charizard Lorem ipsum dolor sit amet,
@@ -71,8 +71,8 @@ const data = [
         Castform Lotad the power that's inside Burnt Berry Makuhita. Ghost Ariados Corphish Dusclops Golbat Gligar Zweilous.`
   },
   {
-    title: 'Professional Software Development in 2019',
-    date: 'Jan 1st, 2019',
+    title: "Professional Software Development in 2019",
+    date: "Jan 1st, 2019",
     firstParagraph: `Hodor hodor HODOR! Hodor hodor - hodor, hodor. Hodor hodor... Hodor hodor hodor; hodor hodor. Hodor hodor hodor, hodor, hodor
           hodor. Hodor, hodor. Hodor. Hodor, hodor - hodor... Hodor hodor hodor; hodor HODOR hodor, hodor hodor?! Hodor hodor, hodor.
           Hodor hodor hodor hodor hodor! Hodor hodor - HODOR hodor, hodor hodor hodor hodor hodor; hodor hodor? `,
@@ -85,6 +85,15 @@ const data = [
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    title: "What's The Deal With Javascript",
+    date: "Jan 1st, 2019",
+    firstParagraph: `Annon anor aras band bar condir harma kemen lain lim lond lost neled quesse rochben salch talagand telu. Anto ar bragol cennan doron feir hal nathron nor sarn tyuru ungol. Alph aran asca cabed din harad henneth ithil lambe lor lost mith nem ninniach odog ohtar ranc tathar tol torech. Anca ast cabed dagnir eneg feir glor kemen laer lambe laurina mor neth ninn odog rhun tol wilwarin. Alata annon avari dad galen maethor naneth perian ril tol. Aelin annon ar barad cor craban heledir lass lyg maethor nuin yanta. Adab alph amon ast ben elen en gond harad heir heru herven hir lang megil meleth ninniach nu ras talagand tathar. `,
+
+    secondParagraph: `Ada aduial ae ambar ampa asta brethil celeb cirith craban eruanna herves hir iaeth kemen luin mesc moth nem ohtar rochben wen. Arn dun ened glin hal hen min peich wen. Alph alqua amar anca anna astaldo bar bein cabed cor harad iaeth le lhaw malina menel mereth mith naneth ninn nwalme ohtar rath riel roch tehta torech van. Anto barad dae lain mae malina nathron nu rhun silme taer tri wilwarin. Alph amon anna anor condir crann dagor din dun glawar hoth idhrin nu orodben ranc sein tri ungol vanwa yanta. Amarth aranel brethil craban dagnir edhel esse gaur hathel heru herves hith iaeth lanc lebed mith naith nwalme panas per rochben sigil thavron tuilinn unque vanwa. `,
+
+    thirdParagraph: `Anca anor hwesta iaur nim ost roch ruth vanwa. Aina ando anna aras avari bar condir din ereg fenn gurth herven hiril lost mesc narn neder neled ninniach rana rath silme talagand. Adab ambar amon anor ast astaldo caer calma canad condir falf fuin heleg hen lebed lim nar nim sigil torech. Ada amar caran condir crann en falas glawar heru herven ithil lenn menel nan nell ohtar pethron ranc ruth salch wing. Ada aelin alph anga band baran beleg faun fenn forod haudh heleg le mellon neleg odog parma ras. -enna adel aear baran condir del ech edhel gweth iaeth laer lang lebed lith ohtar or quesse. Aras beleg bereth caer dol ened faun goth lenn ril telu.`
   }
 ];
 
@@ -112,3 +121,73 @@ const data = [
   Step 5: Add a new article to the array. Make sure it is in the same format as the others. Refresh the page to see the new artible
 
 */
+
+function articleCreator(
+  headingText,
+  articleDate,
+  paragraphOne,
+  paragraphTwo,
+  paragraphThree,
+  expandText
+) {
+  // create article div
+  const div = document.createElement("div");
+  div.classList.add("article");
+
+  // create h2
+  const heading = document.createElement("h2");
+  heading.textContent = headingText;
+
+  // create date
+  const date = document.createElement("p");
+  date.classList.add("date");
+  date.textContent = articleDate;
+
+  // create paragraphs
+  const firstParagraph = document.createElement("p");
+  firstParagraph.textContent = paragraphOne;
+
+  const secondParagraph = document.createElement("p");
+  secondParagraph.textContent = paragraphTwo;
+
+  const thirdParagraph = document.createElement("p");
+  thirdParagraph.textContent = paragraphThree;
+
+  // create expand button
+  const expandSpan = document.createElement("span");
+  expandSpan.classList.add("expandButton");
+  expandSpan.textContent = expandText;
+  expandSpan.addEventListener("click", e => {
+    div.classList.toggle("article-open");
+  });
+
+  // append all elements within article div
+  div.appendChild(heading);
+  div.appendChild(date);
+  div.appendChild(firstParagraph);
+  div.appendChild(secondParagraph);
+  div.appendChild(thirdParagraph);
+  div.appendChild(expandSpan);
+
+  return div;
+}
+
+// create articles pointer
+const articles = document.querySelector(".articles");
+
+// tie data to articleCreator function using map
+const lambdaArticles = data.map(article => {
+  return articleCreator(
+    article.title,
+    article.date,
+    article.firstParagraph,
+    article.secondParagraph,
+    article.thirdParagraph,
+    "Expand"
+  );
+});
+
+// append all articles within articles div
+lambdaArticles.forEach(article => {
+  articles.appendChild(article);
+});

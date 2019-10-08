@@ -8,7 +8,7 @@
   border-radius: 10px;
   background-color: white;
   position: relative;
-  height: 50px;
+  max-height: 50px;
   overflow: hidden;
   box-shadow: 2px 2px 2px lightgrey;
 
@@ -42,9 +42,15 @@
 }
 
 .article-open {
-  height: 400px;
+  max-height: 1000px;
+  animation: expand 0.5s ease-in 0s;
 }
 
-
-
-
+@keyframes expand {
+  0% {
+    max-height: 50px;
+  }
+  100% {
+    max-height: 1000px;
+  }
+}
